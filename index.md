@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Medir para quê?
 
-You can use the [editor on GitHub](https://github.com/gabrielapontesb/MedicaoSoftware/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+A grande questão da medição de software e o motivo pelos quais as pessoas costumam achar que é difícil de realizá-la se deve ao fato de que a) primeiramente, sistemas são desenvolvidos por pessoas e, sendo assim, englobam características subjetivas ou aspectos humanos e b) as métricas de software se dedicam a obter um valor numérico em cima de atributos de qualidade. Acontece que qualidade é um conceito bem abstrato. Entendeu a treta? Como quantificar algo que é subjetivo?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Se a qualidade de um software fosse avaliada simplesmente por revisões de outros desenvolvedores ou analistas, cada um entenderia o mesmo código de maneira diferente, com seu próprio ponto de vista sobre ele ser ou não de qualidade. É impossível retirar a parcialidade nesse caso, além de ser uma atividade demorada e que poderia causar atraso na entrega do projeto. 
 
-### Markdown
+Além disso, as consequências de não medir seu software podem ser muito bem ilustradas a seguir:
+<br/>
+<br/>
+![](https://uploaddeimagens.com.br/images/000/967/876/original/download.png?1498614805) <br/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Para evitar essas coisas, ferramentas devem ser empregadas para permitir avaliações automatizadas sobre aquele código. As medições servem para avaliar a qualidade do sistema através de dados quantificáveis e fazer predições gerais sobre o código, como o número de defeitos e quais as partes que estão problemáticas naquele contexto. É o caso do SonarQube, utilizado no trabalho de LES. Com ele, podemos enxergar a quantidade de código replicada e práticas de clean code, por exemplo.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gabrielapontesb/MedicaoSoftware/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+A medição de software permite entender e aperfeiçoar o processo de desenvolvimento, melhorar a gerência de projetos e o relacionamento com clientes, reduzir frustrações e pressões de cronograma, gerenciar contratos de software, avaliar a produtividade do processo, dentre outras coisas. Por isso, tenha em mente que, como disse Tom de Marco [(oi?)](https://en.wikipedia.org/wiki/Tom_DeMarco), "Não se pode gerenciar o que não se pode medir".
